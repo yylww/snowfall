@@ -14,7 +14,7 @@ class Snowfall {
       snowArr: [],
       width: null,
       height: null,
-      number: parseInt(configs.number, 10) || 30,        // 页面雪花数，取值范围：1-1000，默认为30
+      number: parseInt(configs.number, 10) || 30,        // 画布雪花数，取值范围：1-1000，默认为30
       speed: parseInt(configs.speed, 10) || 3,           // 雪花下落速度，值越大，速度越快，取值范围：1-10，默认为3
       radius: parseInt(configs.radius, 10) || 4,         // 雪花半径，取值范围：1-10，默认为4，雪花半径在 R/2 - R 直接随机
     }

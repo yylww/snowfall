@@ -4,10 +4,11 @@ A simple snowfall animation
 ## Install
 ```bash
 npm install snowfall-animation
+yarn add snowfall-animation
 ```
 
 ## Usage
-### Html
+### HTML
 ```html
 <html>
   <body>
@@ -32,10 +33,10 @@ import Snowfall from 'snowfall-animation'
 
 window.onload = function() {
   const configs = {
-    element: '#canvas',   // canvas element
-    number: 30,           // snowflakes: 1-1000, default: 30
-    speed: 3,             // speed: 1-10, default: 3
-    radius: 4,            // radius: 1-10, default: 4
+    element: '#canvas',   // required "canvas element" 
+    number: 30,           // optional "snowflakes: 1-1000, default: 30"
+    speed: 3,             // optional "speed: 1-10, default: 3"
+    radius: 4,            // optional "radius: 1-10, default: 4"
   }
   const snowfall = new Snowfall(configs)
   snowfall.init();
