@@ -23,8 +23,8 @@ class Snowfall {
   }
 
   init() {
-    this.options.width = this.options.canvas.width
-    this.options.height = this.options.canvas.height
+    this.options.width = this.options.canvas.clientWidth
+    this.options.height = this.options.canvas.clientHeight
     this.options.canvas.setAttribute('width', this.options.width)
     this.options.canvas.setAttribute('height', this.options.height)
 
