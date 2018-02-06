@@ -1,14 +1,12 @@
-# snowfall
+# snowfall-animation
 A simple snowfall animation
 
 ## Install
----
 ```bash
 npm install snowfall-animation
 ```
 
 ## Usage
----
 ### Html
 ```html
 <html>
