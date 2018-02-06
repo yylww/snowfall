@@ -1,5 +1,5 @@
 {
-  "name": "snowfall",
+  "name": "snowfall-animation",
   "version": "1.0.0",
   "description": "A simple snowfall animation",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/yylww/snowfall.git"
   },
-  "keywords": ["snow", "snowfall", "component"],
+  "keywords": ["snow", "snowfall-animation", "component", "animation"],
   "author": "yuyi",
   "license": "ISC",
   "bugs": {
